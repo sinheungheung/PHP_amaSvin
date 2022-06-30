@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아마스빈</title>
+</head>
+<style>
+.search{
+   text-align: center;
+   color:grey;
+    
+}
+h1{
+    color: grey
+}
+
+#box1{
+
+
+}
+
+#box2{
+
+
+}
+
+#box3{
+
+
+}
+
+#box4{
+
+
+}
+
+#box5{
+
+
+}
+
+#box6{
+
+
+}
+#box{
+    width: 650px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 10px;
+}
+div>article{
+    float:left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+img{display:block;}
+
+article{
+    margin-right: -10px;
+}
+
+.company{
+    position: relative;
+    width: 100%;
+    background-color: #E1F6FA;
+    height: auto;
+}
+
+h2{
+    text-align: center;
+    color: grey;
+}
+.slider{
+    width: 2000px;
+    height: 800px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden; 
+}
+.slider input[type=radio]{
+    display: none;
+}
+ul.imgs{
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+}
+ul.imgs li{
+    position: absolute;
+    left: 640px;
+    transition-delay: 1s;
+    padding: 0;
+    margin: 0;
+}
+.bullets{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    z-index: 2;
+}
+.bullets label{
+display: inline-block;
+border-radius: 50%;
+background-color: rgba(0,0,0,0.55);
+width: 20px;
+height: 20px;
+cursor: pointer;
+}
+
+.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+     background-color: #fff;
+}
+.slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+left: 0;
+transition: 0.5s;
+z-index:1;
+}
+.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+left: 0;
+transition: 0.5s;
+z-index:1;
+}
+.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+left: 0;
+transition: 0.5s;
+z-index:1;
+}
+</style>
+<body>
+    <img src="amaSvinimg/amaSvinlogo.webp" alt="amaSvinimg">
+
+    <div class="search">
+        <h4>BRAND</h4>
+        <h4>MENU</h4>
+        <h4>MEMBERSHIP</h4>
+        <h4>FRANCHISE</h4>
+        <h4>STORE</h4>
+        <h4>고객문의</h4>
+    </div>
+
+    <div class ="slider">
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+        <input type="radio" name="slide" id="slide3">
+        <ul id="imgholder" class="imgs">
+            <li><img src="amaSvinimg/amaSvin.webp"></li>
+            <li><img src="amaSvinimg/amaSvin1.webp"></li>
+            <li><img src="amaSvinimg/amaSvin2.webp"></li>
+        </ul>
+        <div class="bullets">
+            <label for="slide1">&nbsp;</label>
+            <label for="slide2">&nbsp;</label>
+            <label for="slide3">&nbsp;</label>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>"오랫동안 사랑하고 사랑받고 싶습니다"</h2>
+    </br>
+</br>
+</br>
+</br>
+</br>
+    <div class="box1">
+    <img src="amaSvinimg/amaSvinMain1.jpg" alt="amaSvinMain1" style=" width: 282px; height: 429px;">
+    </div>
+
+    <div class="box2">
+    <img src="amaSvinimg/amaSvinMain2.jpg" alt="amaSvinMain2" style=" width: 282px; height: 429px;">
+    </div>
+
+    <div class="box3">
+    <img src="amaSvinimg/amaSvinMain3.jpg" alt="amaSvinMain3" style=" width: 282px; height: 429px;">
+    </div>
+
+    <div class="box4">
+    <img src="amaSvinimg/amaSvinMain4.jpg" alt="amaSvinMain4" style=" width:282px; height:248px;">
+    </div>
+
+
+    <div class="box5">
+    <img src="amaSvinimg/amaSvinMain5.jpg" alt="amaSvinMain5" style=" width:282px; height:311px;">
+    </div>
+
+    <div class="box6">
+    <img src="amaSvinimg/amaSvincharacter.jpg" alt="amaSvincharacter"  style=" width:282px; height:311px;">
+    </div>
+
+    <div class="FRANCHISE">
+        <img src="amaSvinimg/amaSvinFranchise.webp" alt="amaSvinFranchise">
+        <img src="amaSvinimg/amaSvinFraneng.webp" alt="amaSvinFraneng">
+    </div>
+
+        <div class="box">
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STORE
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DELIVERY</h1>
+        <article><img src="amaSvinimg/amaSvinStore.webp" alt="amaSvinStore"></article>
+        <article><img src="amaSvinimg/amaSvinDelivery.webp" alt="amaSvinDelivery"></article>
+        </div>
+        <div class="company">
+            <img src="amaSvinimg/amaSvinBottom.webp" alt="amaSvinBottom" style="margin-left: 430px; margin-top: 500px; padding-top: 100px; padding-bottom: 100px;">
+        </div>
+
+    </div>
+   
+</body>
+</html>
